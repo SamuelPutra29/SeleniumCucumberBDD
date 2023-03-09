@@ -19,4 +19,5 @@ Feature: Customers
 
     Scenario: Add second customer
       Given User launch chrome browser
+      Then User can view Dashboard
 
