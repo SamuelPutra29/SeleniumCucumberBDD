@@ -7,9 +7,9 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions
         (
-        features = "/Users/samueldianpermanaputra/IdeaProjects/SeleniumCucumberBDD/Features",
+        features = "/Users/samueldianpermanaputra/IdeaProjects/SeleniumCucumberBDD/Features/Customer.feature",
         glue = "stepDefinitions",
-        dryRun = true,
+        dryRun = false,
         monochrome = true,
         plugin = {"pretty",
                 "html: test-output",
